@@ -1,6 +1,6 @@
 .servicos {
  margin: 0 auto;
- width: 50%;
+ width: 70%;
  align-items: center;
 }
 
@@ -14,4 +14,8 @@
   margin: 1rem auto;
   padding: 0.5rem;
   text-align: center;
+}
+
+.servicos__item p {
+  text-align:left;
 }

@@ -1,0 +1,15 @@
+footer {
+  background-color: var(--verde-escuro);
+  color: var(--verde-principal);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 2rem;
+  border-bottom: solid 3rem var(--amarelo-detalhes);
+  padding-top: 1rem;
+  
+}
+
+footer h4 {
+  font-size: 1.25rem;
+}

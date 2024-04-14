@@ -1,0 +1,14 @@
+.descricao__adv {
+  background-color: var(--verde-escuro);
+}
+
+.descricao__adv--texto {
+  color: var(--verde-principal);
+  font-weight: 200;
+  text-align:left;
+  padding: .5rem;
+}
+
+.descricao__adv--texto q {
+  font-size: 1.25rem;
+}
