@@ -12,3 +12,7 @@
 .descricao__adv--texto q {
   font-size: 1.25rem;
 }
+
+.descricao__adv--imagem img {
+  max-width: 100%;
+}
