@@ -1,0 +1,19 @@
+.banner {
+  background-color: var(--verde-escuro);
+  border-bottom: solid 1.125rem var(--amarelo-detalhes);
+}
+
+.banner__logo {
+  height: 30vh;
+  margin: 0;
+  width: 100%;
+}
+
+.banner__especialidades {
+  color: var(--verde-principal);
+  font-size: 1.25rem;
+  font-weight: 200;
+  height: auto;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}

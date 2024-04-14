@@ -1,0 +1,17 @@
+.servicos {
+ margin: 0 auto;
+ width: 50%;
+ align-items: center;
+}
+
+.servicos h3 {
+  text-align: center;
+}
+
+.servicos__item {
+  background-color: var(--cinza-servicos);
+  height: auto;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  text-align: center;
+}

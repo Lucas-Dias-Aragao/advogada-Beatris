@@ -1,0 +1,21 @@
+@import url(./css/banner.css);
+@import url(./css/contato.css);
+@import url(./css/servicos.css);
+
+:root {
+  --verde-principal: #E3EBE2;
+  --verde-escuro: #152D2E;
+  --amarelo-detalhes: #CDAF43;
+  --preto-fonte: #000000;
+  --cinza-servicos: #D9D9D9;
+
+  --fonte-principal: 'Inter';
+}
+
+body {
+  background-color: var(--verde-principal);
+  font-family: var(--fonte-principal), sans-serif;
+}
+
+
+

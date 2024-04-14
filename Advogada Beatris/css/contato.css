@@ -1,0 +1,21 @@
+.contato {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+}
+
+.contato a {
+  align-items: center;
+  background-color: var(--amarelo-detalhes);
+  color: var(--preto-fonte);
+  display: flex;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+  height: 5vh;
+  justify-content: space-around;
+  margin-top: 1.5vh;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 10rem;
+}
