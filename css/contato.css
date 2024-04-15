@@ -12,6 +12,7 @@
 
   font-size: 0.9rem;
   font-weight: bold;
+  gap: .3rem;
   height: 5vh;
   justify-content: space-around;
   margin-top: 1.5vh;
@@ -32,4 +33,24 @@
 
 .contatos div {
   padding: 0.5rem;
+}
+
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+  .entre-em-contato {
+      width: 70%;
+      margin: 0 auto;
+  }
+
+  .entre-em-contato a {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .contatos div {
+    width: 50%;
+    padding: 1rem;
+    margin: 2rem auto;
+  }
 }

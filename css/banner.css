@@ -17,3 +17,19 @@
   padding-bottom: 1.5rem;
   text-align: center;
 }
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    border-bottom: solid 1.8rem var(--amarelo-detalhes);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner__logo {
+    width: 30%;
+  }
+  .banner__especialidades {
+    width: 30%;
+  }
+}

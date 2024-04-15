@@ -13,3 +13,19 @@ footer {
 footer h4 {
   font-size: 1.25rem;
 }
+
+footer .entre-em-contato a {
+  width: 15rem;
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  .endereco {
+    width: 70%;
+  }
+  
+  footer .entre-em-contato {
+    width: 10rem;
+    margin-left: 0;
+  }
+}

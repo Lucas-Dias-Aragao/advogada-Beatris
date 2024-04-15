@@ -1,18 +1,48 @@
-.descricao__adv {
-  background-color: var(--verde-escuro);
-}
-
 .descricao__adv--texto {
+  background-color: var(--verde-escuro);
   color: var(--verde-principal);
   font-weight: 200;
   text-align:left;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 .descricao__adv--texto q {
   font-size: 1.25rem;
+  
+}
+
+.descricao__adv--imagem {
+  height: 100%;
 }
 
 .descricao__adv--imagem img {
   width: 100%;
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+ .descricao__adv {
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+   background-color: var(--verde-escuro);
+ }
+
+ .descricao__adv--texto {
+  width: 50%;
+  font-size: 1.35rem;
+ }
+
+ .descricao__adv--imagem {
+  width: 50%;
+  height: 100%;
+ }
+
+ .descricao__adv--imagem img {
+  height: 100%;
+ }
+ 
+
+
 }
